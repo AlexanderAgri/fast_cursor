@@ -1,0 +1,13 @@
+---
+name: pydantic-best-practices.mdc
+description: Best practices for Pydantic models and data validation
+globs: **/*.py
+---
+
+- Use BaseModel for all data models to leverage validation and serialization.
+- Define clear field types and constraints (e.g., min_length, max_length) in your models.
+- Utilize Pydantic's validators for custom validation logic.
+- Implement model inheritance for shared fields and reduce redundancy.
+- Use `Config` class within models to customize serialization behavior (e.g., `orm_mode` for ORM integration).
+
+By following these best practices, you can ensure that your FastAPI project is well-documented and that your data models are robust and maintainable.

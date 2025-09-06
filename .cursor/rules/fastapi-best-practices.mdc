@@ -1,0 +1,11 @@
+---
+name: fastapi-best-practices.mdc
+description: Best practices for FastAPI applications and CRUD operations
+globs: **/*.py
+---
+
+- Document each endpoint with clear descriptions and examples using docstrings.
+- Use FastAPI's built-in OpenAPI documentation features to auto-generate API docs.
+- Implement proper status codes for each response to enhance clarity.
+- Use dependency injection for shared logic and authentication.
+- Organize routes logically, grouping related endpoints together.
